@@ -1,17 +1,51 @@
+
+
+
 body{
     background-color: #F78812;
     margin: 0px;
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
-    color: #51050F;
-    
-    
+    color: #51050F; 
 }
 
+
+.welcometext{
+    width: 35%;
+    margin: auto;
+    text-align: left;
+}
+
+.top{
+    text-align: right;
+}
+
+.title{
+    width: 35%;
+    margin: auto;
+    text-align: left;
+   
+}
+
+.Hobbies{
+    position: relative;
+    left: 20px;
+    display:inline-block;
+    margin: auto;  
+    text-align: left;
+}
 .hobbies{
-    text-align: center;
+    display: inline-block;   /* div wird nur so gross wie der inhalt */ 
+	text-align: left; 
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
+.title2{
+    margin: auto; 
+    display: inline-block;
+}
 
 p{
     font-family: 'Montserrat Alternates', sans-serif;
@@ -26,7 +60,7 @@ p{
     margin-left: auto;
     margin-right: auto; 
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     border: 5px solid black;
     background-color:#AB6D23 ; 
 }
@@ -34,29 +68,32 @@ p{
 .hobbypic{
     width: 100px;
     height: auto;
-    display:block;
-    margin-left: auto;
-    margin-right: auto; 
-
+    margin-right: 15px;
+    float: left;
+    
+    
 }
 
 .edupic{
     width: 100px;
     height: auto;
-    display:block;
-    margin-left: auto;
-    margin-right: auto; 
+    float: left;
+    margin-right: 15px;
 
 }
 
 .MySkillz{
 margin-left: auto;
 margin-right: auto;
+display: inline-block;
 }
 
 .Computer{
     width: 100px;
     height: auto;
+    float: left;
+    margin-right: 15px;
+    
 }
 
 .riu{
@@ -67,27 +104,24 @@ margin-right: auto;
 }
 
 .eiche{
-    position: relative;
     top: 50px;
-    width: 300px;
+    width: 180px;
     height: auto;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 90px;
-    
+    margin-bottom: 20px;
+    float: left;  
+    margin-right: 10px; 
 }
 
 hr{
-    height: 1px;
-    background-color:#AB6D23;
-    border: none;
-};
+    border: dotted #51050F 3px;
+    border-bottom: none;
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .topcloud{
-    position: relative;
     top: 20px;
-    display:block;
     margin-left: auto;
     margin-right: auto;
     
@@ -95,26 +129,17 @@ hr{
 
 .skills{
     position: relative;
-    display:block;
-    margin: auto;
-    
+    left: 20px;
+    display:inline-block;
+    margin: auto;  
+    text-align: left;  
 }
 
-
-.skill-row{
-    margin: auto;
-
-}
 
 .topcontainer{
+    display: inline-block;
     top: 60px;
-    background-color: #F78812;
-    
-}
-
-.middlecontainer{
-    background-color:#F78812; 
-    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #F78812;  
 }
 
 
@@ -126,27 +151,22 @@ hr{
 h1{
     top: 30px;
     font-family: 'Swanky and Moo Moo', cursive;
-    text-align: center;
     font-size: 300%;
     color: #51050F;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
 }
 
 h2{
     top: 10px;
     color: #51050F;
-}
-
-.Hobbies{
-    text-align: center;
-}
-
-.hobbies{
-    display: inline-block; 
-	text-align: left; 
+    text-align: left;
 }
 
 .Edu{
     text-align: center;
+    display: inline-block;
 }
 
 .education{
@@ -156,6 +176,31 @@ h2{
 }
 
 .pro{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
+.BUTTON_KXE {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #51050F;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #AB6D23;
+    border: solid #000000 0px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_KXE:hover {
+    background: #D0A91E;
+    border: black 0px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
