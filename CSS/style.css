@@ -24,6 +24,7 @@ body{
     width: 35%;
     margin: auto;
     text-align: left;
+    line-height: 1.0;
    
 }
 
@@ -54,7 +55,7 @@ p{
 }
 
 .karl{
-    width: 200px;
+    width: 150px;
     height: auto;
     display:block;
     margin-left: auto;
@@ -98,22 +99,20 @@ display: inline-block;
 
 .riu{
     width: auto;
-    height: 150px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    height: 100px;
 }
 
 .eiche{
     top: 50px;
-    width: 180px;
+    width: 70px;
     height: auto;
     margin-bottom: 20px;
-    float: left;  
-    margin-right: 10px; 
+    margin-left: 15px;
+    float: right;
 }
 
 hr{
-    border: dotted #51050F 3px;
+    border: dotted #AB6D23 3px;
     border-bottom: none;
     width: 75%;
     margin-top: 10px;
@@ -140,6 +139,7 @@ hr{
     display: inline-block;
     top: 60px;
     background-color: #F78812;  
+   
 }
 
 
@@ -165,8 +165,11 @@ h2{
 }
 
 .Edu{
-    text-align: center;
-    display: inline-block;
+    position: relative;
+    left: 20px;
+    display:inline-block;
+    margin: auto;  
+    text-align: left;
 }
 
 .education{
