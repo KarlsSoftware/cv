@@ -4,11 +4,10 @@
 body{
     background-color: #F78812;
     margin: 0px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    text-align: center;
-    color: #51050F; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #51050F;
+    text-align: center; 
 }
-
 
 .welcometext{
     width: 35%;
@@ -28,25 +27,36 @@ body{
    
 }
 
-.Hobbies{
-    position: relative;
-    left: 20px;
-    display:inline-block;
-    margin: auto;  
-    text-align: left;
-}
-.hobbies{
-    display: inline-block;   /* div wird nur so gross wie der inhalt */ 
-	text-align: left; 
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
 .title2{
     margin: auto; 
     display: inline-block;
 }
+
+.listclass{
+    position: relative;
+    left: 20px;
+    display:inline-block;
+    text-align: left;
+}
+
+.list{
+    display: inline-block;   /* div wird nur so gross wie der inhalt */ 
+	text-align: left; 
+    list-style-position: inside;
+    padding-left: 0px;
+
+}
+
+.listpic{
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
 
 p{
     font-family: 'Montserrat Alternates', sans-serif;
@@ -66,22 +76,6 @@ p{
     background-color:#AB6D23 ; 
 }
 
-.hobbypic{
-    width: 100px;
-    height: auto;
-    margin-right: 15px;
-    float: left;
-    
-    
-}
-
-.edupic{
-    width: 100px;
-    height: auto;
-    float: left;
-    margin-right: 15px;
-
-}
 
 .MySkillz{
 margin-left: auto;
@@ -89,13 +83,6 @@ margin-right: auto;
 display: inline-block;
 }
 
-.Computer{
-    width: 100px;
-    height: auto;
-    float: left;
-    margin-right: 15px;
-    
-}
 
 .riu{
     width: auto;
@@ -112,7 +99,7 @@ display: inline-block;
 }
 
 hr{
-    border: dotted #AB6D23 3px;
+    border: dotted #AB6D23 2px;
     border-bottom: none;
     width: 75%;
     margin-top: 10px;
@@ -124,14 +111,6 @@ hr{
     margin-left: auto;
     margin-right: auto;
     
-}
-
-.skills{
-    position: relative;
-    left: 20px;
-    display:inline-block;
-    margin: auto;  
-    text-align: left;  
 }
 
 
@@ -159,34 +138,21 @@ h1{
 }
 
 h2{
-    top: 10px;
     color: #51050F;
-    text-align: left;
 }
 
-.Edu{
-    position: relative;
-    left: 20px;
-    display:inline-block;
-    margin: auto;  
-    text-align: left;
+
+.Edu-title{
+    text-align: center;
 }
 
-.education{
-    display: inline-block; 
-	text-align: left; 
-
-}
-
-.pro{
-    text-decoration: none;
-}
 
 .BUTTON_KXE {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
+    border:#51050F 2px;
     border-radius: 20px;
-    color: solid #51050F;
+    color: #51050F;
     font-family: Arial;
     font-size: 20px;
     font-weight: 200;
@@ -198,13 +164,30 @@ h2{
     display: inline-block;
     cursor: pointer;
     text-align: center;
+    size: 120%;
  }
  
  .BUTTON_KXE:hover {
-    background: #D0A91E;
-    border: black 0px;
+    background: #AB6D23;
+    border:#51050F 2px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    text-decoration: none;
+    text-decoration: underline;
+    size: 120%;
  }
+
+ .introduction{
+     width: 600px;
+     text-align: left;
+     font-family: 'Open Sans Condensed', sans-serif;
+     color: #51050F;
+     font-size: 16px;
+     margin-top:-15px;
+     margin-left: 0%;
+     line-height:150%;
+     padding-left: 0px;
+
+ }
+
+ 
